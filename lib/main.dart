@@ -10,15 +10,14 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Column(
-            children: [
-              Text('Hello World!'),
-            ],
-          ),
+      home: Scaffold(body: Center(
+        child: Column(
+          children: [
+            Text('Hello World!'),
+            Text('Welcome to Flutter to Boreal College'),
+          ],
         ),
-      ),
+      )),
     );
   }
 }
